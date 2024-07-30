@@ -1,0 +1,63 @@
+body {
+  font-family: 'Indie Flower', cursive;
+  background-color: #1e1e1e; /* Dark background */
+  color: #f0f0f0; /* Light text color */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  color: #4A90E2; /* Bright blue */
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Darker shadow for better readability */
+}
+
+.dice {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.dice p {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 10px;
+  color: #e0e0e0; /* Light gray text for labels */
+}
+
+.dice img {
+  width: 250px; /* Large dice images */
+  height: 250px;
+}
+
+button {
+  background-color: #355C7D ; /* Bright blue */
+  border: none;
+  color: #f0f0f0; /* Light text color */
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 0;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #50E3C2; /* Turquoise on hover */
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  font-size: 14px;
+  color: #e0e0e0; /* Light gray */
+}
